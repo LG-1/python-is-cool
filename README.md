@@ -478,3 +478,4 @@ class Encoder:
     ...
 ```
 Now, if some user irresponsibly does a wild import with `parts`, they can only import Encoder, Decoder, Loss. Personally, I also find `__all__` helpful as it gives me an overview of the module.
+
